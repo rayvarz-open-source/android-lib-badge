@@ -1,0 +1,39 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion compile_sdk_version
+    buildToolsVersion build_tool_version
+
+
+    defaultConfig {
+        minSdkVersion min_sdk_version
+        targetSdkVersion target_sdk_version
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api support_appcompat
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    implementation 'com.github.rayvarz-open-source:android-lib-text:v1.0.0'
+    implementation 'com.github.rayvarz-open-source:android-lib-images:v1.0.0'
+    implementation 'com.github.rayvarz-open-source:android-lib-utils:v1.0.0'
+
+}

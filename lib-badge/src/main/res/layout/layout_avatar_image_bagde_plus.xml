@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.jpp.images.circleImageViewPlus
+        android:id="@+id/tab_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        app:civ_border_color="@color/accent" />
+
+    <com.jpp.text.textViewPlus
+        android:id="@+id/tab_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_image_badge_plus_badge"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+</merge>

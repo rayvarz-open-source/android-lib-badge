@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <declare-styleable name="badgeView">
+            <attr name="badgeText" format="float" />
+            <attr name="badgeTextSize" format="float" />
+            <attr name="badgeMaxNumber" format="integer" />
+            <attr name="badgeColor" format="color" />
+            <attr name="badgeTextColor" format="color" />
+            <!--<attr name="src" format="integer" />-->
+            <!--<attr name="scaleType" format="integer" />-->
+            <attr name="iconPaddingTop" format="integer" />
+            <attr name="iconPaddingBottom" format="integer" />
+            <attr name="iconPaddingRight" format="integer" />
+            <attr name="iconPaddingLeft" format="integer" />
+            <attr name="custom_size" format="integer" />
+            <attr name="border_color" format="color" />
+            <attr name="custom_border_width" format="integer" />
+
+        </declare-styleable>
+</resources>

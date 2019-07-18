@@ -32,8 +32,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    implementation 'com.github.rayvarz-open-source:android-lib-text:v1.0.0'
-    implementation 'com.github.rayvarz-open-source:android-lib-images:v1.0.0'
-    implementation 'com.github.rayvarz-open-source:android-lib-utils:v1.0.0'
+    implementation 'com.github.rayvarz-open-source:android-lib-text:master-SNAPSHOT'
+    implementation 'com.github.rayvarz-open-source:android-lib-images:master-SNAPSHOT'
+    implementation 'com.github.rayvarz-open-source:android-lib-utils:master-SNAPSHOT'
 
 }

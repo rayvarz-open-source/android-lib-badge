@@ -25,8 +25,8 @@ android {
 }
 
 dependencies {
-    api fileTree(dir: 'libs', include: ['*.jar'])
-    api support_appcompat
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation support_appcompat
     testImplementation 'junit:junit:4.12'
     androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
         exclude group: 'com.android.support', module: 'support-annotations'
